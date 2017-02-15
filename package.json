@@ -1,6 +1,6 @@
 {
   "name": "vue-qriously",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Component to generate HTML canvas QR codes for Vue.js 2.0",
   "main": "src/vue-qriously.js",
   "scripts": {
