@@ -1,8 +1,8 @@
 {
   "name": "vue-qriously",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Component to generate HTML canvas QR codes for Vue.js 2.0",
-  "main": "src/vue-qriously.js",
+  "main": "dist/vue-qriously.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
     "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
