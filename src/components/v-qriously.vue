@@ -8,6 +8,7 @@
 import Qrious from 'qrious'
 
 export default {
+    name: 'qriously',
     data() {
         return {qrious: null};
     },
