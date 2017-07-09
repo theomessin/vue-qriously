@@ -1,12 +1,10 @@
 {
   "name": "vue-qriously",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Component to generate HTML canvas QR codes for Vue.js 2.0",
   "main": "dist/vue-qriously.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
-    "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
-    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -27,12 +25,13 @@
   "author": "Theodore Messinezis",
   "license": "MIT",
   "dependencies": {
-    "qrious": "^2.2.0",
     "vue": "^2.1.10"
   },
   "devDependencies": {
-    "laravel-mix": "^0.6.3",
-    "lodash": "^4.17.4",
-    "vue": "^2.1.10"
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-commonjs": "^8.0.2"
   }
 }
