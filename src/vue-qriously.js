@@ -5,10 +5,11 @@
  * @file vue-qriously plugin definition
  */
 
+import vQriously from './components/v-qriously.vue';
 
 var VueQriously = {
     install(Vue, options) {
-        Vue.component('qriously', require('./components/v-qriously.vue'))
+        Vue.component('qriously', vQriously)
     }
 };
 
