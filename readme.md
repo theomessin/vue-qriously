@@ -3,6 +3,8 @@
 A Vue.js 2 component to draw QR codes on an HTML Canvas using [qrious](https://github.com/neocotic/qrious).
 
 ## Installation
+- #### NPM / Yarn
+  Run `npm install --save vue-qriously`, or `yarn add vue-qriously`
 
 - #### With Modules
 
