@@ -18,7 +18,7 @@ export default {
         },
         backgroundAlpha: {
             type: Number,
-            default: 0.0
+            default: 1.0
         },
         foreground: {
             type: String,
