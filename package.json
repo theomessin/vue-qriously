@@ -28,12 +28,13 @@
     "vue": "^2.1.10"
   },
   "devDependencies": {
-    "babel-preset-es2015-rollup": "^3.0.0",
+    "vue-template-compiler": "2.6.11",
+    "@babel/core": "7.8.4",
     "qrious": "^4.0.2",
-    "rollup": "^0.41.6",
-    "rollup-plugin-babel": "^2.7.1",
-    "rollup-plugin-commonjs": "^8.0.2",
-    "rollup-plugin-node-resolve": "^2.0.0",
-    "rollup-plugin-vue": "^2.4.0"
+    "rollup": "^1.19.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-vue": "^5.0.0"
   }
 }
