@@ -1,6 +1,6 @@
-# vue-qriously
+# [DEPRECATED] vue-qriously
 
-A Vue.js 2 component to draw QR codes on an HTML Canvas using [qrious](https://github.com/neocotic/qrious).
+**This package is no longer maintained**. A Vue.js 2 component to draw QR codes on an HTML Canvas using [qrious](https://github.com/neocotic/qrious).
 
 ## Installation
 - #### NPM / Yarn
