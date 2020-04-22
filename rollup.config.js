@@ -3,9 +3,13 @@ import babel from 'rollup-plugin-babel'
 import resolve from 'rollup-plugin-node-resolve'
 import commonjs from 'rollup-plugin-commonjs'
 
-export default {
-    entry: './src/vue-qriously.js',
-    dest: './dist/vue-qriously.js',
+export default [{
+    input: './src/vue-qriously.js',
+    output: {
+      file: './dist/vue-qriously.js',
+      format: 'umd',
+      name: 'vue-qriously'
+    },
 
     plugins: [
         resolve(),
@@ -13,10 +17,8 @@ export default {
         commonjs(),
         babel({
             exclude: 'node_modules/**',
-            presets: ['es2015-rollup']
+            presets: []
         }),
     ],
 
-    format: 'umd',
-    moduleName: 'vue-qriously'
-}
+}]
